@@ -4,9 +4,9 @@ export default function NavbarItem() {
   return (
     <div>
       <Link
-        href={`/?genre=${param}`}
+        href={`/?genre='param'`}
       >
-        {title}
+        title
       </Link>
     </div>
   )
