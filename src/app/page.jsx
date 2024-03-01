@@ -20,9 +20,9 @@ export default async function Home({ searchParams }) {
     const results = data.results;
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
+      <div>
       <Results results={results} />
-    </h1>
+    </div>
     </>
   )
 }
