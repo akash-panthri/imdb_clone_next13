@@ -1,7 +1,9 @@
+import Card from "./Card";
+
 export default function Results({results}) {
   return (
     <div>{results.map((result) => (
-        <div key={result.id}>  {result.title}</div>
+        <Card key={result.id}  result={result} />
       ))}</div>
   )
 }
