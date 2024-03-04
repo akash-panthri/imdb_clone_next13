@@ -16,11 +16,11 @@ export default async  function SearchPage() {
 
   return (
     <div>
-     {results.length === 0 && (
+     {results && results.length === 0 && (
         <h1 className="text-center pt-6">No results found</h1>
       )}
 
-      <Results results={results} />
+      {results && <Results results={results} />}
     </div>
   )
 }
