@@ -1,4 +1,7 @@
 
+https://github.com/akash-panthri/imdb_clone_next13/assets/150880382/20a73f61-d63d-4fad-a3ca-21cb2cc7ac93
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`]
 (https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 ## Getting Started
